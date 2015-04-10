@@ -2,7 +2,22 @@
 <resources>
 
     <string name="app_name">Healthsome</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Something</string>
+    <string name="title">HealthSome</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_log_in">Log In</string>
+    <string name="subtitle">A Health Data Platform</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up!</string>
+
+    <color name="invalid">#FF0000</color>
+    <color name="background">#2BAF2B</color>
+    <color name="text_color">#FFFFFF</color>
+
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="cancel">CANCEL</string>
+    <string name="signup">SIGN UP</string>
+    <string name="title_activity_mystudies_fragment">MystudiesFragment</string>
 
 </resources>
