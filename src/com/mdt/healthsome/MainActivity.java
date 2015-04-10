@@ -5,10 +5,14 @@ import android.app.ActionBar.Tab;
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.widget.TabHost;
+import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity implements
 ActionBar.TabListener{
@@ -32,10 +36,11 @@ ActionBar.TabListener{
         viewPager = (ViewPager) findViewById(R.id.pager);
         actionBar = getActionBar();
         mAdapter = new TabsPagerAdapter(getSupportFragmentManager());
+        actionBar.setTitle("HealthSome");
         
         viewPager.setAdapter(mAdapter);
         actionBar.setHomeButtonEnabled(false);
-        
+        //actionBar.setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#2BAF2B")));
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);        
  
         // Adding Tabs
