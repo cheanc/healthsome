@@ -14,6 +14,7 @@ import android.support.v4.view.ViewPager;
 import android.widget.TabHost;
 import android.widget.TextView;
 
+@SuppressWarnings("deprecation")
 public class MainActivity extends FragmentActivity implements
 ActionBar.TabListener{
 	private ViewPager viewPager;
