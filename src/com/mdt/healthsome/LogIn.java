@@ -22,8 +22,9 @@ public class LogIn extends Activity {
 	        	public void onClick(View viewParam) {
 	        		TextView username = (TextView)findViewById(R.id.username);
 	        		TextView password = (TextView)findViewById(R.id.password);
-	        		if (username.getText().equals("vibs") && password.getText().equals("mdt")){
-	        			
+	        		if ((username.getText().toString().equals("vibs")) && (password.getText().toString().equals("mdt"))){
+	        			Intent i = new Intent(LogIn.this, MainActivity.class);
+	        	        startActivity(i);
 	        		}
 	        		username.setText("");
 	        		password.setText("");

@@ -18,6 +18,10 @@
     <string name="title_activity_sign_up">Sign Up</string>
     <string name="cancel">CANCEL</string>
     <string name="signup">SIGN UP</string>
-    <string name="title_activity_mystudies_fragment">MystudiesFragment</string>
+    <string name="title_activity_main">Healthsome</string>
+    <string name="title_activity_studies_fragment">All Studies</string>
+    <string name="title_activity_mystudies_fragment">My Studies</string>
+    <string name="title_activity_profile_fragment">Profile</string>
+    <string name="title_activity_setting_fragment">Setting</string>
 
 </resources>
