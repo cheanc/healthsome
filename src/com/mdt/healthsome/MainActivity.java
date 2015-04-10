@@ -1,11 +1,23 @@
 package com.mdt.healthsome;
 
+import android.app.ActionBar;
+import android.app.ActionBar.Tab;
 import android.app.Activity;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 import android.widget.TabHost;
 
-public class MainActivity extends Activity{
+public class MainActivity extends FragmentActivity implements
+ActionBar.TabListener{
+	private ViewPager viewPager;
+    private TabsPagerAdapter mAdapter;
+    private ActionBar actionBar;
+	
+ // Tab titles
+    private String[] tabs = { "Profile", "All Studies", "My Studies", "Settings" };
 	
 	StudiesFragment fragmentTab1 = new StudiesFragment();
 	MystudiesFragment fragmentTab2 = new MystudiesFragment();
@@ -16,23 +28,38 @@ public class MainActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.activity_main);
-	    tab = (TabHost)this.findViewById(android.R.id.tabhost);
-	    createTab();
+	    // Initilization
+        viewPager = (ViewPager) findViewById(R.id.pager);
+        actionBar = getActionBar();
+        mAdapter = new TabsPagerAdapter(getSupportFragmentManager());
+        
+        viewPager.setAdapter(mAdapter);
+        actionBar.setHomeButtonEnabled(false);
+        
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);        
+ 
+        // Adding Tabs
+        for (String tab_name : tabs) {
+            actionBar.addTab(actionBar.newTab().setText(tab_name)
+                    .setTabListener(this));
+        }
 	}
 
-	private void createTab() {
+	@Override
+	public void onTabSelected(Tab tab, FragmentTransaction ft) {
+		// TODO Auto-generated method stub
 		
-		TabHost.TabSpec tab1Spec = tab.newTabSpec("tab1");
-	    tab1Spec.setIndicator("TAB 1");
-	    Intent p = new Intent(this, ProfileFragment.class);
-	    tab1Spec.setContent(p);
+	}
 
-	    TabHost.TabSpec tab2Spec = tab.newTabSpec("tab2");
-	    tab2Spec.setIndicator("TAB 2");
-	    Intent p2 = new Intent(this, StudiesFragment.class);
-	    tab2Spec.setContent(p2);
+	@Override
+	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+		// TODO Auto-generated method stub
+		
+	}
 
-	    tab.addTab(tab1Spec);
-	    tab.addTab(tab2Spec);
+	@Override
+	public void onTabReselected(Tab tab, FragmentTransaction ft) {
+		// TODO Auto-generated method stub
+		
 	}
 }
