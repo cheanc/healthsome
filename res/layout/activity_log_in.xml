@@ -43,7 +43,9 @@
         android:hint="Username"
         android:inputType="textPersonName"
         android:textColorHint="#BBBBBB"
-        android:textSize="12sp" />
+        android:textSize="12sp"> 
+            <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/sign_in"
@@ -70,7 +72,7 @@
         android:textColorHint="#BBBBBB"
         android:textSize="12sp" >
 
-        <requestFocus />
+        
     </EditText>
 
     <TextView
