@@ -51,6 +51,10 @@
             android:name=".SettingFragment"
             android:label="@string/title_activity_setting_fragment" >
         </activity>
+        <activity
+            android:name=".Study1Content"
+            android:label="@string/title" >
+        </activity>
 
     </application>
 

@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.mdt.healthsome.Study1Content" >
+	
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/pic1sadfull" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/image"
+        android:text="@string/title_activity_study1_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    
+    <TextView
+        android:id="@+id/organization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="14dp"
+        android:text="CMU Heinz College"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeperiod"
+        android:layout_marginTop="14dp"
+        android:text="@string/study_description"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/join_study"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/description"
+        android:layout_centerHorizontal="true"
+        android:background="#2BAF2B"
+        android:text="Join Study"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_marginTop="14dp"
+        android:radius="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_toLeftOf="@+id/reward"
+        android:layout_alignBottom="@+id/timeperiod"
+        android:src="@drawable/period" />
+
+    <TextView
+        android:id="@+id/reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/join_study"
+        android:layout_below="@+id/organization"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="5dp"
+        android:text="Reward $50"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/timeperiod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/reward"
+        android:layout_alignBottom="@+id/reward"
+        android:layout_toRightOf="@+id/periodicon"
+        android:layout_marginLeft="5dp"
+        android:text="Last for 7 weeks"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/periodicon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignBottom="@+id/timeperiod"
+        android:src="@drawable/period" />
+
+</RelativeLayout>
+</ScrollView>

@@ -23,5 +23,7 @@
     <string name="title_activity_mystudies_fragment">My Studies</string>
     <string name="title_activity_profile_fragment">Profile</string>
     <string name="title_activity_setting_fragment">Setting</string>
+    <string name="title_activity_study1_content">Seasonal Affective Disorder Research</string>
+    <string name="study_description">Six percent of the US population, primarily in northern climates, is affected by seasonal affective disorder (SAD) in its most marked form. Another 14 percent of the adult US population suffers from a lesser form of seasonal mood changes, known as winter blues. Of course, seasonality affects people all over the world. The prevalence of SAD in Oslo, Norway, was reported as 14 percent in contrast to 4.7 percent in New York City. In fact, someone may have winter blues while living in southern climates and convert to full blown SAD if he or she moves to a northern climate. The results of this study would help researchers determine what actions individuals could take to prevent SAD.</string>
 
 </resources>

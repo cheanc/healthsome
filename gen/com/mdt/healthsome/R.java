@@ -29,27 +29,73 @@ public final class R {
     }
     public static final class drawable {
         public static final int ab_transparent_styling_abs=0x7f020000;
-        public static final int background=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int tab_indicator_ab_styling_abs=0x7f020003;
-        public static final int tab_selected=0x7f020004;
-        public static final int tab_selected_focused=0x7f020005;
-        public static final int tab_selected_pressed=0x7f020006;
-        public static final int tab_unselected=0x7f020007;
-        public static final int tab_unselected_focused=0x7f020008;
-        public static final int tab_unselected_pressed=0x7f020009;
+        public static final int alcoholcropped=0x7f020001;
+        public static final int alcoholfull=0x7f020002;
+        public static final int background=0x7f020003;
+        public static final int border=0x7f020004;
+        public static final int box=0x7f020005;
+        public static final int calendar=0x7f020006;
+        public static final int diabetescropped=0x7f020007;
+        public static final int diabetesfull=0x7f020008;
+        public static final int dietarycropped=0x7f020009;
+        public static final int dietaryfull=0x7f02000a;
+        public static final int drugcropped=0x7f02000b;
+        public static final int drugfull=0x7f02000c;
+        public static final int exercisecropped=0x7f02000d;
+        public static final int exercisefull=0x7f02000e;
+        public static final int heartcropped=0x7f02000f;
+        public static final int heartfull=0x7f020010;
+        public static final int ic_launcher=0x7f020011;
+        public static final int mentalcropped=0x7f020012;
+        public static final int mentalfull=0x7f020013;
+        public static final int period=0x7f020014;
+        public static final int pic1sadfull=0x7f020015;
+        public static final int reward=0x7f020016;
+        public static final int sadcropped=0x7f020017;
+        public static final int sadfull=0x7f020018;
+        public static final int tab_indicator_ab_styling_abs=0x7f020019;
+        public static final int tab_selected=0x7f02001a;
+        public static final int tab_selected_focused=0x7f02001b;
+        public static final int tab_selected_pressed=0x7f02001c;
+        public static final int tab_unselected=0x7f02001d;
+        public static final int tab_unselected_focused=0x7f02001e;
+        public static final int tab_unselected_pressed=0x7f02001f;
+        public static final int tobaccocropped=0x7f020020;
+        public static final int tobaccofull=0x7f020021;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000b;
+        public static final int LinearLayout=0x7f090014;
+        public static final int LinearLayout1=0x7f090019;
+        public static final int RelativeLayout1=0x7f09001b;
+        public static final int ScrollView01=0x7f09000b;
+        public static final int action_settings=0x7f090021;
         public static final int cancel=0x7f090009;
+        public static final int completedListView=0x7f090018;
+        public static final int days=0x7f09001e;
+        public static final int description=0x7f09000e;
         public static final int email=0x7f090008;
+        public static final int goingListView=0x7f090016;
+        public static final int iViewBox=0x7f09001f;
+        public static final int iViewCalendar=0x7f09001d;
+        public static final int iViewThumb=0x7f090020;
+        public static final int image=0x7f09000c;
+        public static final int imageView1=0x7f090011;
+        public static final int join_study=0x7f090010;
+        public static final int mainListView=0x7f09001a;
         public static final int no_account=0x7f090005;
+        public static final int organization=0x7f09000d;
         public static final int pager=0x7f090007;
         public static final int password=0x7f090004;
+        public static final int periodicon=0x7f090013;
         public static final int progressBar=0x7f09000a;
+        public static final int reward=0x7f090012;
         public static final int sign_in=0x7f090003;
         public static final int sign_up=0x7f090006;
+        public static final int subTitle=0x7f09001c;
         public static final int subtitle=0x7f090001;
+        public static final int tVgoing=0x7f090015;
+        public static final int tViewComplete=0x7f090017;
+        public static final int timeperiod=0x7f09000f;
         public static final int title=0x7f090000;
         public static final int username=0x7f090002;
     }
@@ -59,10 +105,12 @@ public final class R {
         public static final int activity_mystudies_fragment=0x7f030002;
         public static final int activity_sign_up=0x7f030003;
         public static final int activity_splash=0x7f030004;
-        public static final int fragment_mystudies=0x7f030005;
-        public static final int fragment_profile=0x7f030006;
-        public static final int fragment_setting=0x7f030007;
-        public static final int fragment_studies=0x7f030008;
+        public static final int activity_study1_content=0x7f030005;
+        public static final int fragment_mystudies=0x7f030006;
+        public static final int fragment_profile=0x7f030007;
+        public static final int fragment_setting=0x7f030008;
+        public static final int fragment_studies=0x7f030009;
+        public static final int study_listview_item=0x7f03000a;
     }
     public static final class menu {
         public static final int log_in=0x7f080000;
@@ -83,6 +131,7 @@ public final class R {
         public static final int sign_in=0x7f050006;
         public static final int sign_up=0x7f050008;
         public static final int signup=0x7f05000b;
+        public static final int study_description=0x7f050012;
         public static final int subtitle=0x7f050005;
         public static final int title=0x7f050002;
         public static final int title_activity_log_in=0x7f050004;
@@ -92,6 +141,7 @@ public final class R {
         public static final int title_activity_setting_fragment=0x7f050010;
         public static final int title_activity_sign_up=0x7f050009;
         public static final int title_activity_studies_fragment=0x7f05000d;
+        public static final int title_activity_study1_content=0x7f050011;
     }
     public static final class style {
         /** 
