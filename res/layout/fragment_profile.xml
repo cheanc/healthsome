@@ -7,10 +7,332 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mdt.healthsome.ProfileFragment" >
+	
+    <LinearLayout
+	        android:id="@+id/linearLayout4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:orientation="vertical">
+	<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+	        android:id="@+id/linearLayout12"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:orientation="vertical">    
+    <LinearLayout
+	        android:id="@+id/linearLayout5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:orientation="horizontal">
+	        
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+		
+        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="94dp"
+	            android:layout_height="127dp"
+	            android:layout_alignLeft="@+id/linearLayout1"
+	            android:layout_alignTop="@+id/linearLayout1"
+	            android:src="@drawable/vibs" />
+        	
+        <LinearLayout 
+            android:id="@+id/LinearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+	 			
+            <TextView
+	            android:id="@+id/textView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Vibhanshu Abhishek"
+	            android:textSize="10sp" />
 
-    <TextView
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/male" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/border" >
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="30dp" 
+            android:orientation="horizontal">
+            
+            <ImageView
+	            android:id="@+id/imageView2"
+	            android:layout_width="20dp"
+	            android:layout_height="20dp"
+	            android:src="@drawable/flag_icon" />
+			
+            <LinearLayout
+	            android:layout_width="130dp"
+	            android:layout_height="30dp" 
+	            android:orientation="vertical">
+	
+	            <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="GOOD NEWS!"
+	                android:textColor="@color/background"
+	                android:textSize="12sp"
+	                android:layout_marginLeft="5dp"
+	                android:textStyle="bold" />
+	            
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textSize="7sp"
+	                android:textColor="#BBBBBB"
+	                android:layout_marginLeft="7dp"
+	                android:text="Mar 27" />
+             
+             </LinearLayout>
+             
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="150dp"
+            android:layout_height="78dp"
+            android:text="The Cancer Drug Research Study has received FDA approval. New drugs will be introduced to the market on May 1, 2016. \nThank you for taking part in this study!"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle" />
+    
+        </LinearLayout>
+		</LinearLayout>        
+    	<LinearLayout
+	        android:id="@+id/linearLayout3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:orientation="horizontal">
+        
+    	    <ImageView
+	    	    android:id="@+id/imageView5"
+	    	    android:layout_width="40dp"
+	    	    android:layout_height="40dp"
+	    	    android:src="@drawable/checkbox" />
+			<LinearLayout
+		        android:id="@+id/linearLayout6"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:orientation="vertical">    	    
+					
+			    	<LinearLayout
+				        android:id="@+id/linearLayout7"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" 
+				        android:orientation="horizontal">
+
+			    		<TextView
+			    		    android:id="@+id/textView5"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="3"
+			    		    android:textColor="@color/background"
+			    		    android:textSize="17dp"
+			    		    android:textStyle="bold" />
+			    		
+			    		<TextView
+			    		    android:id="@+id/textView6"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="studies completed, "
+			    		    android:textSize="13dp"/>
+			    		
+			    		<TextView
+			    		    android:id="@+id/textView7"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="2"
+			    		    android:textColor="@color/background"
+			    		    android:textSize="17dp"
+			    		    android:textStyle="bold" />
+			    		
+			    		<TextView
+			    		    android:id="@+id/textView8"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="ongoing"
+			    		    android:textSize="13dp"/>
+			    	    
+            		</LinearLayout>
+			    	
+		    	    <ProgressBar
+		    	        android:id="@+id/progressBar1"
+		    	        style="?android:attr/progressBarStyleHorizontal"
+		    	        android:layout_width="230dp"
+		    	        android:layout_height="wrap_content" />
+
+	    	</LinearLayout>
+    	    
+    	</LinearLayout>
+    	
+    	    	<LinearLayout
+	        android:id="@+id/linearLayout8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp" 
+	        android:orientation="horizontal">
+        
+    	    <ImageView
+	    	    android:id="@+id/imageView7"
+	    	    android:layout_width="40dp"
+	    	    android:layout_height="40dp"
+	    	    android:src="@drawable/cup" />
+			<LinearLayout
+		        android:id="@+id/linearLayout9"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:orientation="vertical">    	    
+					
+			    	<LinearLayout
+				        android:id="@+id/linearLayout10"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" 
+				        android:orientation="horizontal">
+
+			    		<TextView
+			    		    android:id="@+id/textView9"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="$110"
+			    		    android:textColor="@color/background"
+			    		    android:textSize="17dp"
+			    		    android:textStyle="bold" />
+			    		
+			    		<TextView
+			    		    android:id="@+id/textView10"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="dollars earned,"
+			    		    android:textSize="13dp"/>
+			    		
+			    		<TextView
+			    		    android:id="@+id/textView11"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="$25"
+			    		    android:textColor="@color/background"
+			    		    android:textSize="17dp"
+			    		    android:textStyle="bold" />
+			    		
+			    		<TextView
+			    		    android:id="@+id/textView12"
+			    		    android:layout_width="wrap_content"
+			    		    android:layout_height="wrap_content"
+			    		    android:text="in process"
+			    		    android:textSize="13dp"/>
+			    	    
+            		</LinearLayout>
+			    	
+		    	    <ProgressBar
+		    	        android:id="@+id/progressBar2"
+		    	        style="?android:attr/progressBarStyleHorizontal"
+		    	        android:layout_width="230dp"
+		    	        android:layout_height="wrap_content" />
+
+	    	</LinearLayout>
+    	    
+    	</LinearLayout>
+    	
+    	<LinearLayout
+	        android:id="@+id/linearLayout11"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp" 
+	        android:orientation="vertical">    	
+	        
+    	        	<TextView
+			    		android:id="@+id/textView13"
+			    		android:layout_width="wrap_content"
+			    		android:layout_height="wrap_content"
+			    		android:text="DAILY TODO TASKS"
+			    		android:layout_marginBottom="10dp"
+			    		android:textSize="18dp"
+			    		android:textStyle="bold"/>
+					
+    	        	<LinearLayout
+				        android:id="@+id/linearLayout13"
+				        android:layout_width="272dp"
+				        android:layout_height="40dp"
+				        android:background="@drawable/border"
+				        android:orientation="horizontal">    	
+    	        	
+    	            <CheckBox
+    	                android:id="@+id/checkBox1"
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="wrap_content"
+    	                android:clickable="false"
+    	                android:text=""/>
+    	            
+    	            <TextView
+			    		android:id="@+id/textView14"
+			    		android:layout_width="wrap_content"
+			    		android:layout_height="wrap_content"
+			    		android:text="5-minute survery (SAD research study)"
+			    		android:textSize="12dp"/>
+    	            </LinearLayout>
+    	            
+    	            <LinearLayout
+				        android:id="@+id/linearLayout14"
+				        android:layout_width="272dp"
+				        android:layout_height="40dp"
+				        android:background="@drawable/border" 
+				        android:orientation="horizontal">    	
+    	        	
+    	            <CheckBox
+    	                android:id="@+id/checkBox2"
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="wrap_content"
+    	                android:clickable="false"
+    	                android:checked="true"
+    	                android:text=""/>
+    	            
+    	            <TextView
+			    		android:id="@+id/textView15"
+			    		android:layout_width="wrap_content"
+			    		android:layout_height="wrap_content"
+			    		android:text="Walk for 20 minutes (Obesity study)"
+			    		android:textSize="12dp"/>
+    	            </LinearLayout>    	    
+    	</LinearLayout>
+    	  
+    	</LinearLayout>
+    		
+    	</ScrollView>
+    	
+    	</LinearLayout>
 
 </RelativeLayout>
+
+
+

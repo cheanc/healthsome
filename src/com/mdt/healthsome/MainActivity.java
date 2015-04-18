@@ -53,7 +53,7 @@ ActionBar.TabListener{
 
 	@Override
 	public void onTabSelected(Tab tab, FragmentTransaction ft) {
-		// TODO Auto-generated method stub
+		viewPager.setCurrentItem(tab.getPosition());
 		
 	}
 

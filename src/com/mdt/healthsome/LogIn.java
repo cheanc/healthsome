@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.content.Intent;
 
 public class LogIn extends Activity {
@@ -25,6 +26,9 @@ public class LogIn extends Activity {
 	        		if ((username.getText().toString().equals("vibs")) && (password.getText().toString().equals("mdt"))){
 	        			Intent i = new Intent(LogIn.this, MainActivity.class);
 	        	        startActivity(i);
+	        		}
+	        		else {
+	        			Toast.makeText(getApplicationContext(), "Incorrect Username/Password", Toast.LENGTH_LONG).show();
 	        		}
 	        		username.setText("");
 	        		password.setText("");

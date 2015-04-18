@@ -23,5 +23,6 @@
     <string name="title_activity_mystudies_fragment">My Studies</string>
     <string name="title_activity_profile_fragment">Profile</string>
     <string name="title_activity_setting_fragment">Setting</string>
+    <string name="title_activity_survey">Survey</string>
 
 </resources>
