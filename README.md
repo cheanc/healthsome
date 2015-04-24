@@ -15,7 +15,7 @@
 **Android Developer:** 
 Chad Chen, Duc Le, Chuxiang Piao
 
-**UI Desinger:**
+**UI Designer:**
 Yixin Wan
 
 **Web Developer:**
