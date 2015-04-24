@@ -7,7 +7,7 @@
 
 **HealthSome** is a groundbreaking platform that seamlessly connects researchers with subjects, enabling researchers to gather critical data from their subjects in a cost effective and efficient way.
 
-## Compatability
+## compatibility
 **Android** API V19 & V21
 
 
